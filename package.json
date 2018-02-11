@@ -1,0 +1,27 @@
+{
+  "name": "commspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "jest": "^22.2.2",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "flow"
+    ]
+  }
+}
